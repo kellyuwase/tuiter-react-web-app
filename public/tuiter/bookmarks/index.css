@@ -1,0 +1,19 @@
+body {
+
+    font-family: "Arial";
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.wb-username{
+ color: rgb(110, 118, 125);
+ font-size:13px;
+}
+
+.wb-circular-avatar{
+        height:50px;
+        width:50px;
+        border-radius:50%;
+        vertical-align: middle;
+ }
