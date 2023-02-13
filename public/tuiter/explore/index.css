@@ -23,7 +23,9 @@ body {
     color: rgb(110, 118, 125);
     font-size:15px;
     padding:16px;
-
+.row {
+    display: flex;
+}
 
 }
 .wd-border-width{
@@ -39,4 +41,41 @@ body {
 .wd-suggested-topics{
     font-size:13px;
     color: rgb(110, 118, 125);
+}
+.wd-under-text {
+    display: flex;
+    flex-direction: column;
+}
+.wd-tweet-txt {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+.wd-settings {
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+.wd-grey-tweet {
+    font-size: 13px;
+    color: #5F6368;
+    font-weight: normal;
+}
+
+.wd-who-to-follow {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.wd-username-txt {
+    font-size: 14px;
+    color: #1e1e1e;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
