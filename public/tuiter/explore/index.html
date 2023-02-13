@@ -4,69 +4,319 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="index.css" rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 </head>
+
 <body>
-    <div>
-        <input class="wd-rounded-corners-all-around
-                     wd-border-width" placeholder="Search Tuiter"/>
-        <span class="wd-nav-tabs">&#9881;</span>
+<div class="container">
 
+    <div class="row m-2">
+        <div class="me-3 col-sm-1 col-md-1 col-lg-1 col-xl-2">
+            <div class="row pt-1 pb-1 border border-bottom-0 border-gray">
+                <div class="col-lg-12 text-center col-xl-2">
+                    <i class="fab fa-twitter"></i>
+                </div>
 
-        <ul class="wd-nav-tabs">
-            <li class="wd-selected">For you</li>
-            <li class="wd-other">Trending</li>
-            <li class="wd-other">Covid-19</li>
-            <li class="wd-other">News</li>
-            <li class="wd-other">Sports</li>
-            <li class="wd-other">Entertainment</li>
-        </ul>
-        <div>
-            <h3 class="wd-suggested-topics">Trending in Science</h3>
-            <h1>Starships</h1>
-            <h3 class="wd-suggested-topics">55.5K Tweets</h3>
+                <div class="d-none d-xl-block col-xl-10 ps-0">
+                </div>
+
+            </div>
+
+            <div class="row pt-1 pb-1 border border-bottom-0 border-gray">
+                <div class="col-lg-12 text-center col-xl-2">
+                    <i class="fa fa-home me-0"></i>
+                </div>
+
+                <div class="d-none d-xl-block col-xl-10 ps-0">
+                    Home
+                </div>
+            </div>
+            <div class="row pt-1 pb-1 border border-bottom-0 border-gray"
+                 style="background-color: #0d6efd; color: #fff;">
+                <div class="text-center col-lg-12 col-xl-2">
+                    <i class="fa fa-hashtag me-0"></i>
+                </div>
+
+                <div class="d-none d-xl-block col-xl-10 ps-0"
+                     style="color: #fff;">
+                    Explore
+                </div>
+            </div>
+            <div class="row pt-1 pb-1 border border-bottom-0 border-gray">
+                <div class="text-center col-lg-12 col-xl-2">
+                    <i class="fa fa-bell me-0"></i>
+                </div>
+
+                <div class="d-none d-xl-block col-xl-10 ps-0">
+                    Notifications
+                </div>
+            </div>
+
+            <div class="row pt-1 pb-1 border border-bottom-0 border-gray">
+                <div class="text-center col-lg-12 col-xl-2">
+                    <i class="fa fa-envelope me-0"></i>
+                </div>
+
+                <div class="d-none d-xl-block col-xl-10 ps-0">
+                    Messages
+                </div>
+            </div>
+            <div class="row pt-1 pb-1 border border-bottom-0 border-gray">
+                <div class="text-center col-lg-12 col-xl-2">
+                    <i class="fa fa-bookmark me-0"></i>
+                </div>
+
+                <div class="d-none d-xl-block col-xl-10 ps-0">
+                    Bookmarks
+                </div>
+            </div>
+
+            <div class="row pt-1 pb-1 border border-bottom-0 border-gray">
+                <div class="text-center col-lg-12 col-xl-2">
+                    <i class="fa fa-list me-0"></i>
+                </div>
+
+                <div class="d-none d-xl-block col-xl-10 ps-0">
+                    Lists
+                </div>
+            </div>
+
+            <div class="row pt-1 pb-1 border border-bottom-0 border-gray">
+                <div class="text-center col-lg-12 col-xl-2">
+                    <i class="fa fa-user me-0"></i>
+                </div>
+
+                <div class="d-none d-xl-block col-xl-10 ps-0">
+                    Profile
+                </div>
+            </div>
+
+            <div class="row pt-1 pb-1 border border border-gray">
+                <div class="text-center col-lg-12 col-xl-2">
+                    <i class="fa fa-ellipsis me-0"></i>
+                </div>
+
+                <div class="d-none d-xl-block col-xl-10 ps-0">
+                    More
+                </div>
+            </div>
+
+            <div class="row pt-1 pb-1">
+                <div class="d-grid text-center gap-1 col-md-12 mx-auto g-0">
+                    <a class="btn btn-primary rounded-pill" href="#">Tweet</a>
+                </div>
+            </div>
         </div>
 
-        <br>
+        <div class="col-sm-8 col-md-7 m-sm-2 col-lg-6 col-xl-5 ps-2 pe-2">
+            <div class="row">
+                <div class="col-11">
+                    <div class="input-group">
+                        <input type="text" class="form-control rounded-pill" placeholder="Search Twitter"
+                               aria-label="from" aria-describedby="from">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <a href="explore-settings.html"><i
+                            style="color: #0d6efd"
+                            class="fa fa-cog fa-lg wd-settings"></i>
+                </div>
+            </div>
+            <div class="row mt-2 ps-2 pe-3">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">For you</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                    <li class="d-none d-xxl-block">
+                        <a class="nav-link" href="#">Entertainment</a>
+                    </li>
+                </ul>
+                <div class="row mt-2">
+                    <figure class="position-relative">
+                        <img src="space.jpg" , alt="Image description">
+                        <figcaption class="position-absolute bottom-0 p-1" style="color: #fff;">
+                            <h3>SpaceX's Starship</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-10 wd-under-text">
+                    <p3 class="wd-grey-tweet">Web Development</p3>
+                    <p3 class="wd-tweet-txt"> ReactJS
+                        <i class="fas fa-check-circle"></i>
+                        <p3 class="wd-grey-tweet">- 2h</p3>
+                    </p3>
+                    <p3 class="wd-tweet-txt">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs.
+                    </p3>
+                </div>
+                <div class="col-2 ps-0">
+                    <img src="react-logo.png" height="100%"
+                         width="100%">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-10 wd-under-text">
+                    <p3 class="wd-grey-tweet">JavaScript</p3>
+                        <i class="fas fa-check-circle"></i>
+                        <p3 class="wd-grey-tweet">- 2h</p3>
+                    </p3>
+                    <p3 class="wd-tweet-txt">JavaScript is programming language that can run on browsers as well as desktops.
+                    </p3>
+                    <p3 class="wd-grey-tweet">123K Tweets</p3>
+                </div>
+                <div class="col-2 ps-0">
+                    <img src="java.jpeg"
+                         height="100%" width="100%">
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-10 wd-under-text">
+                    <p3 class="wd-grey-tweet">Web Development</p3>
+                    <p3 class="wd-tweet-txt">jQuery</p3>
+                    <p3 class="wd-grey-tweet">123K Tweets</p3>
+                </div>
+                <div class="col-2 ps-0">
+                    <img src="jquery.png"
+                         height="100%" width="100%">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-10 wd-under-text">
+                    <p3 class="wd-grey-tweet">Web Development</p3>
+                    <p3 class="wd-tweet-txt">NodeJS
+                        <i class="fas fa-check-circle"></i>
+                        <p3 class="wd-grey-tweet">- 2h</p3>
+                    </p3>
+                    <p3 class="wd-grey-tweet">123K Tweets</p3>
+                </div>
+                <div class="col-2 ps-0">
+                    <img src="nodejs.png"
+                         height="100%" width="100%">
+                </div>
+            </div>
+            <hr>
 
 
-        <div>
-            <h3 class="wd-suggested-topics">Sports . Trending</h3>
-            <h1>Joe Rogan</h1>
-            <h3 class="wd-suggested-topics">5,218 Tweets</h3>
         </div>
 
-        <br>
+        <div class="d-none d-lg-block col-lg-4 col-xl-4 ms-2 me-2">
 
-        <div>
-            <h3>The New York Times</h3>
-            <h1>CNN's Cuomo conundrum: A star anchor with a brother in trouble</h1>
-           <!-- <img src="../../lab/a2/teslabot.jpg"/>-->
-        </div>
+            <div class="row pt-2 pb-2 border border-bottom-0 border-gray">
+                <p3 class="wd-who-to-follow">Who to follow</p3>
+            </div>
 
-        <br>
+            <div class="row pt-2 pb-2 border border-bottom-0 border-gray">
+                <div class="col-2 pe-1">
+                    <img src="ja.png"
+                         height="100%" width="100%" style="border-radius: 50%; ">
+                </div>
+                <div class="col-6 wd-under-text">
+                    <p3 class="wd-tweet-txt">Java
+                        <i class="fas fa-check-circle"></i>
+                    </p3>
+                    <p3 class="wd-username-txt">@Java</p3>
 
-
-        <div>
-            <h3 class="wd-suggested-topics">COVID-19 . LIVE</h3>
-            <h1>COVID-19:News and updates for Massachusetts</h1>
-        </div>
-
-        <br>
-
-        <div>
-            <h2>Bloomberg Opinion</h2>
-            <h1>Thinking about getting a booster? Read this first.</h1>
-        </div>
-
-        <br>
+                </div>
+                <div class="col-4 mx-auto">
+                    <a class="btn btn-primary rounded-pill" href="#">Follow</a>
+                </div>
+            </div>
 
 
-        <div>
-            <h3 class="wd-suggested-topics">Trending in the United States</h3>
-            <h1>Wonder Bread</h1>
-            <h3 class="wd-suggested-topics">1,259 Tweets</h3>
+            <div class="row pt-2 pb-2 border border-bottom-0 border-gray">
+                <div class="col-2 pe-1">
+                    <img src="relativity.jpg"
+                         height="100%" width="100%" style="border-radius: 50%; ">
+                </div>
+                <div class="col-6 wd-under-text">
+                    <p3 class="wd-tweet-txt">Relativity Space
+                        <i class="fas fa-check-circle"></i>
+                    </p3>
+                    <p3 class="wd-username-txt">@relativityspace</p3>
+
+                </div>
+                <div class="col-4 mx-auto">
+                    <a class="btn btn-primary rounded-pill" href="#">Follow</a>
+                </div>
+            </div>
+
+            <div class="row pt-2 pb-2 border border-bottom-0 border-gray">
+                <div class="col-2 pe-1">
+                    <img src="virgin.jpg"
+                         height="100%" width="100%" style="border-radius: 50%; ">
+                </div>
+                <div class="col-6 wd-under-text">
+                    <p3 class="wd-tweet-txt">Virgin Galactic
+                        <i class="fas fa-check-circle"></i>
+                    </p3>
+                    <p3 class="wd-username-txt">@virgingalactic</p3>
+
+                </div>
+                <div class="col-4 mx-auto">
+                    <a class="btn btn-primary rounded-pill" href="#">Follow</a>
+                </div>
+            </div>
+
+            <div class="row pt-2 pb-2 border border-bottom-0 border-gray">
+                <div class="col-2 pe-1">
+                    <img src="nasa.jpg"
+                         height="100%" width="100%" style="border-radius: 50%; ">
+                </div>
+                <div class="col-6 wd-under-text">
+                    <p3 class="wd-tweet-txt">NASA
+                        <i class="fas fa-check-circle"></i>
+                    </p3>
+                    <p3 class="wd-username-txt">@NASA</p3>
+
+                </div>
+                <div class="col-4 mx-auto">
+                    <a class="btn btn-primary rounded-pill" href="#">Follow</a>
+                </div>
+            </div>
+
+            <div class="row pt-2 pb-2 border border-bottom-0 border-gray">
+                <div class="col-2 pe-1">
+                    <img src="tesla.png"
+                         height="100%" width="100%" style="border-radius: 50%; ">
+                </div>
+                <div class="col-6 wd-under-text">
+                    <p3 class="wd-tweet-txt">Tesla
+                        <i class="fas fa-check-circle"></i>
+                    </p3>
+                    <p3 class="wd-username-txt">@Tesla</p3>
+
+                </div>
+                <div class="col-4 mx-auto">
+                    <a class="btn btn-primary rounded-pill" href="#">Follow</a>
+                </div>
+            </div>
+
         </div>
     </div>
 
+</div>
+
 </body>
 </html>
+
