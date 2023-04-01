@@ -28,12 +28,9 @@ return(
           <div className="mt-2 mb-2"><img style={imageBorder} height={'80%'} width={'90%'} src={require(`../images/${post.image}`)} alt="side-icon"/></div>
         </div>
         <div className="ps-5">
-          <a href="javascript:void(0);"><i className="fa-regular fa-comment"></i></a>
-          &nbsp;{post.comments}&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="javascript:void(0);"><i className="fa-solid fa-retweet"></i></a>
-          &nbsp;{post.retweets}&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="javascript:void(0);"><i className="fa-regular fa-heart"></i></a>
-          &nbsp;{post.likes}&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="javascript:void(0);"><i className="fa-regular fa-comment"></i></a>&nbsp;{post.comments}&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="javascript:void(0);"><i className="fa-solid fa-retweet"></i></a>&nbsp;{post.retweets}&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="javascript:void(0);"><i className="fa-regular fa-heart"></i></a>&nbsp;{post.likes}&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="javascript:void(0);"><i className="fa-solid fa-download"></i></a>
         </div>
       </div>
