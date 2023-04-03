@@ -17,8 +17,8 @@ const ProfileComponent = () => {
           </div>
         </div>
         <div className="wd-profile-images-div">
-          <img className="w-100" src={`/images/${profileInfo.bannerPicture}`}/>
-          <img className="wd-profile-picture rounded-circle" src={`/images/${profileInfo.profilePicture}`}/>
+          <img className="w-100" src={`/tuiter/images/${profileInfo.bannerPicture}`}/>
+          <img className="wd-profile-picture rounded-circle" src={`/tuiter/images/${profileInfo.profilePicture}`}/>
           <Link className="btn btn-outline-secondary rounded-pill float-end m-3" to="/tuiter/edit-profile/"><span className="fw-bold">Edit Profile</span></Link>
         </div>
         <div className="w-100 p-3">

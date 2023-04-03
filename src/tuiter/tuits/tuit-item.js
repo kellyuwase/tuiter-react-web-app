@@ -19,7 +19,7 @@ console.log(tuit)
             <span className="fw-bold">{tuit.userName} </span>
             <i className="fa fa-check-circle"/> <span className="text-secondary">{tuit.handle} • {tuit.time}</span>
           </p>
-          <p>{tuit.tuit}</p>
+          <p>{tuit.title}</p>
           <TuitStats tuitItem={tuit}/>
         </div>
       </li>

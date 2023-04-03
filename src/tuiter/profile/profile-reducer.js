@@ -5,9 +5,9 @@ const profileSlice = createSlice({
   initialState: {
     name: 'SpongeBob', handle: '@spongebob',
     profilePicture: 'spongebob.jpeg', bannerPicture: 'spongebanner.jpeg',
-    bio: 'Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.',
-    location: 'Boston, MA', dateOfBirth: '1968-07-07', dateJoined: '2009-04-02',
-    followingCount: 340, followersCount: 223, total_tuits: 6114,
+    bio: 'the official SpongeBob SquarePants Twitter from @Nickelodeon',
+    location: 'Boston, MA', dateOfBirth: '1986-07-14', dateJoined: '2009-04-02',
+    followingCount: 12345, followersCount: 456, total_tuits: 123,
   },
   reducers: {
     updateProfile(state, action) {
